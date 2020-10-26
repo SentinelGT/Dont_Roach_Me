@@ -13,12 +13,20 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalMove = 0f;
 
-    //check prev direction for dashing (maybe float?)
-    private Vector3 lastMoveDir;
+
     // check for jump
     bool jump = false;
     bool crouch = false;
 
+    public float dashSpeed = 100f;
+    private float dashTime;
+    public float startDashTime;
+    private int direction;
+
+    void Start()
+    {
+        dashTime = startDashTime;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -58,11 +66,10 @@ public class PlayerMovement : MonoBehaviour
     // Dash handling
     private void PlayerDash() 
     {
-        Vector3 movement;
-        //checks input of left shift [makes most sense]
         if (Input.GetKeyDown(KeyCode.LeftShift)) {
-            transform.position += lastMoveDir * dashDistance;
-            
+            horizontalMove = Input.GetAxisRaw("Horizontal") * dashDistance;
+        } else if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         }
     }
 
