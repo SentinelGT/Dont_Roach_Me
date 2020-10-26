@@ -8,13 +8,25 @@ public class PlayerMovement : MonoBehaviour
 
     //runspeed
     public float runSpeed = 100f;
+    //fixed dasn distance for now
+    public float dashDistance = 100f;
 
     float horizontalMove = 0f;
+
 
     // check for jump
     bool jump = false;
     bool crouch = false;
 
+    public float dashSpeed = 100f;
+    private float dashTime;
+    public float startDashTime;
+    private int direction;
+
+    void Start()
+    {
+        dashTime = startDashTime;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -35,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
         }
+
+        PlayerDash();
     }
 
     void FixedUpdate() 
@@ -48,4 +62,15 @@ public class PlayerMovement : MonoBehaviour
 
         //register release
     }
+
+    // Dash handling
+    private void PlayerDash() 
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+            horizontalMove = Input.GetAxisRaw("Horizontal") * dashDistance;
+        } else if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        }
+    }
+
 }
