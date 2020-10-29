@@ -981,6 +981,7 @@ GameObject:
   - component: {fileID: 95824728}
   - component: {fileID: 95824727}
   - component: {fileID: 95824726}
+  - component: {fileID: 95824729}
   m_Layer: 9
   m_Name: sticktrap
   m_TagString: Untagged
@@ -1075,6 +1076,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95824724}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &95824729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95824724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawn: Level1
 --- !u!1 &107703975
 GameObject:
   m_ObjectHideFlags: 0
