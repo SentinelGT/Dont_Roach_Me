@@ -8616,10 +8616,14 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -7.000002, y: 1.2998996, z: -10}
 =======
   m_LocalPosition: {x: 292.36, y: -3.0400004, z: -10}
 >>>>>>> parent of a84fb11... Added a checkpoint system
+=======
+  m_LocalPosition: {x: 292.36, y: -3.0400004, z: -10}
+>>>>>>> parent of 75d4dc0... Merge pull request #10 from SentinelGT/ChrisM3
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10211,6 +10215,7 @@ MeshFilter:
   m_GameObject: {fileID: 506639098}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &507936969
 =======
   m_GameObject: {fileID: 664091056}
@@ -10371,6 +10376,8 @@ MeshFilter:
 --- !u!1 &674681881
 >>>>>>> parent of 3a8a2b2... Whitebox Complete
 =======
+=======
+>>>>>>> parent of 75d4dc0... Merge pull request #10 from SentinelGT/ChrisM3
 --- !u!1 &654051225
 >>>>>>> parent of a84fb11... Added a checkpoint system
 GameObject:
@@ -13073,6 +13080,7 @@ MeshFilter:
   m_GameObject: {fileID: 664091056}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &664869101
 =======
   m_GameObject: {fileID: 790706936}
@@ -13080,6 +13088,8 @@ MeshFilter:
 --- !u!1 &806386469
 >>>>>>> parent of 3a8a2b2... Whitebox Complete
 =======
+=======
+>>>>>>> parent of 75d4dc0... Merge pull request #10 from SentinelGT/ChrisM3
 --- !u!1 &752637938
 >>>>>>> parent of a84fb11... Added a checkpoint system
 GameObject:
@@ -26751,7 +26761,10 @@ GameObject:
   - component: {fileID: 1174199084}
   - component: {fileID: 1174199083}
   - component: {fileID: 1174199082}
+<<<<<<< HEAD
 >>>>>>> parent of a84fb11... Added a checkpoint system
+=======
+>>>>>>> parent of 75d4dc0... Merge pull request #10 from SentinelGT/ChrisM3
   m_Layer: 0
   m_Name: largeWall (116)
 >>>>>>> ChrisM:Assets/Scenes/SampleScene.unity
@@ -29040,6 +29053,7 @@ MeshFilter:
   m_GameObject: {fileID: 1485919434}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1492725130
 =======
   m_GameObject: {fileID: 1189488931}
@@ -29306,6 +29320,8 @@ MeshFilter:
 --- !u!1 &1208936098
 >>>>>>> parent of 3a8a2b2... Whitebox Complete
 =======
+=======
+>>>>>>> parent of 75d4dc0... Merge pull request #10 from SentinelGT/ChrisM3
 --- !u!1 &1270831102
 >>>>>>> parent of a84fb11... Added a checkpoint system
 GameObject:
