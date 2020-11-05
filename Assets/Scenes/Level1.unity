@@ -35983,7 +35983,6 @@ Transform:
 <<<<<<< HEAD:Assets/Scenes/Level1.unity
   m_GameObject: {fileID: 1643907473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.840002, y: -0.9200005, z: -10}
   m_LocalPosition: {x: 292.36, y: -3.0400004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -43217,8 +43216,6 @@ Transform:
   - {fileID: 1157427132}
 <<<<<<< HEAD
   - {fileID: 115784441}
-  - {fileID: 1270795302}
-  - {fileID: 642908553}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
