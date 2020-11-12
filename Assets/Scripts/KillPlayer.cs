@@ -5,24 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class KillPlayer : MonoBehaviour
 {
-    public string Respawn;
-    // Start is called before the first frame update
+    public GameObject thePlayer;
+    private GameMaster gm;
+    
+    
     void Start()
     {
-        
+     gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn);
+            thePlayer.transform.position = gm.lastCheckPointPos;
+            //SceneManager.LoadScene(Respawn);
         }
     }
 }

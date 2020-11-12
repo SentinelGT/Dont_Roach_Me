@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &7215031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &43071282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1540,7 +1540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!1 &97075640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &115784443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2131,7 +2131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &130482675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2357,7 +2357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &143116239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &151992915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2809,7 +2809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &159769590
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3123,7 +3123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176877352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.09999, y: -27.767557, z: 12.621094}
+  m_LocalPosition: {x: 20.09999, y: -27.768, z: 12.621094}
   m_LocalScale: {x: 13.284812, y: 0.52047205, z: 1}
   m_Children: []
   m_Father: {fileID: 783334568}
@@ -3141,7 +3141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &176877355
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3572,7 +3572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &202781541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3692,7 +3692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &205489267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4118,7 +4118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &222662309
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5039,7 +5039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &281551050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6369,7 +6369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &412995119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6595,7 +6595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &428552552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7139,7 +7139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &466365270
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7577,7 +7577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &478932977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7909,7 +7909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &506639101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8306,7 +8306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.840002, y: -0.9200005, z: -10}
+  m_LocalPosition: {x: -4.840001, y: -0.9200005, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8585,7 +8585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &529732840
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9873,7 +9873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &638349363
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11045,7 +11045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &690062196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11377,7 +11377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &706728807
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12177,7 +12177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &752637941
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12433,7 +12433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &775470092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14185,7 +14185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &873972380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14517,7 +14517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &900258448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15273,7 +15273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &952537191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15499,7 +15499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &974127800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17729,7 +17729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1144478711
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18819,7 +18819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1204951229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18939,7 +18939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1208936101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22389,7 +22389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1486911296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23145,7 +23145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1523192323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23371,7 +23371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1529108155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24109,7 +24109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1592130481
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24335,7 +24335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1598800568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24893,7 +24893,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643907473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.840002, y: -0.9200005, z: -10}
+  m_LocalPosition: {x: -4.840001, y: -0.9200005, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 674681882}
@@ -25158,7 +25158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1665647707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26817,7 +26817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763524823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.499985, y: -17.747553, z: 12.621094}
+  m_LocalPosition: {x: 8.499985, y: -17.748, z: 12.621094}
   m_LocalScale: {x: 7.2735133, y: 0.52047205, z: 1}
   m_Children: []
   m_Father: {fileID: 783334568}
@@ -26835,7 +26835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1763524826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27803,7 +27803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1828715278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28892,7 +28892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1884799920
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29360,7 +29360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1913816940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29462,7 +29462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919119376}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31.759995, y: -27.767557, z: 12.621094}
+  m_LocalPosition: {x: 31.759995, y: -27.768, z: 12.621094}
   m_LocalScale: {x: 7.2735133, y: 0.52047205, z: 1}
   m_Children: []
   m_Father: {fileID: 783334568}
@@ -29480,7 +29480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &1919119379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30848,7 +30848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &2033055762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31922,7 +31922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &2094275644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32207,7 +32207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dc08bd48d434fdc895565fe76b22bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: Level1
+  thePlayer: {fileID: 1174199078}
 --- !u!61 &2117822322
 BoxCollider2D:
   m_ObjectHideFlags: 0
