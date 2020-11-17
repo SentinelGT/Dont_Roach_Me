@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class CountDownTimer : MonoBehaviour
 {
 
+    //used to respawn the player on timer ends
+    private string Respawn = "Level1";
     [SerializeField] float startTime = 300f;
 
     [SerializeField] TextMeshProUGUI timerText;
@@ -18,6 +21,11 @@ public class CountDownTimer : MonoBehaviour
     {
         // coroutines but be called regardless unless specified 
         StartCoroutine(GameTimer());
+    }
+
+    void Update() 
+    {
+        //TimeOut();
     }
 
     // should be public because some game elements need the time
@@ -52,6 +60,19 @@ public class CountDownTimer : MonoBehaviour
         if (hours > 0) { timerText.text += hours + ":"; }
         if (minutes > 0) { timerText.text += minutes + ":";}
         if (seconds > 0) { timerText.text += seconds; }
+
+        TimeOut(timer);
+    }
+
+    //restart level on time out
+    private void TimeOut(float time) {
+        if (time <= 0)
+        {
+            SceneManager.LoadScene(Respawn);
+        } else {
+            //Debug.Log("timer: " + time);
+        }
+
     }
 
 }
