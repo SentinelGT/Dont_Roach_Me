@@ -6,6 +6,9 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class CountDownTimer : MonoBehaviour
 {
+    // These two variables are used to teleport the player to the StartPointCheckpoint
+    public Transform teleportTarget;
+    public GameObject thePlayer;
 
     //used to respawn the player on timer ends
     private string Respawn = "Level1";
@@ -66,9 +69,14 @@ public class CountDownTimer : MonoBehaviour
 
     //restart level on time out
     private void TimeOut(float time) {
+        if (time <= 1)
+        {
+            thePlayer.transform.position = teleportTarget.transform.position;
+        }
+        
         if (time <= 0)
         {
-            SceneManager.LoadScene(Respawn);
+            SceneManager.LoadScene(Respawn);   
         } else {
             //Debug.Log("timer: " + time);
         }
