@@ -1,28 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class KillPlayer : MonoBehaviour
 {
-    public string Respawn;
-    // Start is called before the first frame update
+    public GameObject thePlayer;
+    private GameMaster gm;
+    //private string Respawn;
+    
     void Start()
     {
-        
+     gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+     //Respawn = "Level1";
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn);
+            thePlayer.transform.position = gm.lastCheckPointPos;
+            //SceneManager.LoadScene(Respawn);
         }
     }
 }
