@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class GameMaster : MonoBehaviour
 {
-   private static GameMaster instance;
+   public static GameMaster instance;
    public Vector2 lastCheckPointPos;
+
+   [Header("Foodstuffs")]
+   public int foodstuffs = 0;
 
    void Awake(){
 
@@ -16,4 +19,9 @@ public class GameMaster : MonoBehaviour
            Destroy(gameObject);
        }
    }
+
+public void IncreaseFoodstuffs(int amount) {
+    foodstuffs += amount;
+}
+
 }
