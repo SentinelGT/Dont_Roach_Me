@@ -7,6 +7,8 @@ public class GameMaster : MonoBehaviour
    public static GameMaster instance;
    public Vector2 lastCheckPointPos;
 
+
+
    [Header("Foodstuffs")]
    public int foodstuffs = 0;
 
@@ -22,6 +24,9 @@ public class GameMaster : MonoBehaviour
 
 public void IncreaseFoodstuffs(int amount) {
     foodstuffs += amount;
+    if (amount > 10){
+        foodstuffs = 0;
+    }
 }
 
 }
