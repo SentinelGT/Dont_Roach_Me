@@ -6,6 +6,7 @@ public class GameMaster : MonoBehaviour
 {
    public static GameMaster instance;
    public Vector2 lastCheckPointPos;
+   
 
 
 
