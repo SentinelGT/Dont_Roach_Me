@@ -19793,7 +19793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpPower: 15
-  extraJumps: 1
+  extraJumps: 2
   groundLayer:
     serializedVersion: 2
     m_Bits: 512
