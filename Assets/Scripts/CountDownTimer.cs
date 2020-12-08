@@ -9,8 +9,9 @@ public class CountDownTimer : MonoBehaviour
     // These two variables are used to teleport the player to the StartPointCheckpoint
     public Transform teleportTarget;
     public GameObject thePlayer;
-    // This varible is used to reset the Foodstuffs to 0
+    // These two variable are used to reset the Foodstuffs to 0 and playerHealth to 100
     private int worth = 100;
+    private int damage = 2000;
 
 
     //used to respawn the player on timer ends
@@ -76,6 +77,7 @@ public class CountDownTimer : MonoBehaviour
         {
             thePlayer.transform.position = teleportTarget.transform.position;
             GameMaster.instance.IncreaseFoodstuffs(worth);
+            PlayerHealth.instance.DamageplayerHealth(damage);
         }
         
         if (time <= 0)
