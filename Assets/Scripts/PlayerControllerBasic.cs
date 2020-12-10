@@ -10,6 +10,12 @@ public class PlayerControllerBasic : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Transform feet;
+
+    //for sound
+    AudioSource jumpSound;
+
+    //flip the player around
+    bool facingRight = true;
     
     int jumpCount = 0;
     bool isGrounded;
@@ -22,9 +28,21 @@ public class PlayerControllerBasic : MonoBehaviour
     float doubleTapTime;        // checks for double tap on a key A and D for our movment
     KeyCode lastKeyCode;        //checks last keycode of teh SAME KEY
 
+    void Start () {
+        jumpSound = GetComponent<AudioSource>();
+    }
+
     private void Update()
     {
         mx = Input.GetAxis("Horizontal");       // has game pick direction we're facing
+
+        if (mx < 0 && facingRight)
+        {
+            flip();
+        } else if(mx>0 && !facingRight)
+        {
+            flip();
+        }
 
         if (Input.GetButtonDown("Jump")) {
             Jump();
@@ -67,6 +85,7 @@ public class PlayerControllerBasic : MonoBehaviour
     {
         if (isGrounded || jumpCount < extraJumps) {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+            jumpSound.Play();
             jumpCount++;
         }
     }
@@ -96,5 +115,11 @@ public class PlayerControllerBasic : MonoBehaviour
         //end of dash
         isDashing = false;
         rb.gravityScale = gravity;      //return gravity to normal
+    }
+
+    void flip()
+    {
+        facingRight = !facingRight; //if facing right is true it will be false and vise versa
+        transform.Rotate(0f,180f,0f);
     }
 }
