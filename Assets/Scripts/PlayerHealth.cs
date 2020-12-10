@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public static PlayerHealth instance;
           
     [Header("Health")]
-   public int playerHealth = 100;
+   public int playerHealth = 3;
 
 void Awake(){
 
