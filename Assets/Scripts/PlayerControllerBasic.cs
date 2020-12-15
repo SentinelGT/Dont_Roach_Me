@@ -52,6 +52,7 @@ public class PlayerControllerBasic : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A)) {
             if(doubleTapTime > Time.time && lastKeyCode == KeyCode.A) {
                 //actual dash
+                isDashing = true;
                 StartCoroutine(Dash(-1f));
             } else {
                 doubleTapTime = Time.time + 0.25f;      // 1/4 to tap a second time
@@ -64,7 +65,9 @@ public class PlayerControllerBasic : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D)) {
             if(doubleTapTime > Time.time && lastKeyCode == KeyCode.D) {
                 //actual dash
+                isDashing = true;
                 StartCoroutine(Dash(1f));
+
             } else {
                 doubleTapTime = Time.time + 0.25f;      // 1/4 to tap a second time
             }
@@ -105,7 +108,8 @@ public class PlayerControllerBasic : MonoBehaviour
 
     IEnumerator Dash (float direction)
     {
-        isDashing = true;       // set dashing state
+        Debug.Log("Dashing");
+        //isDashing = true;       // set dashing state
         rb.velocity = new Vector2(rb.velocity.x, 0f);
         rb.AddForce(new Vector2(dashDistance * direction, 0f), ForceMode2D.Impulse);     // if -1 go other way otherwise multiiply dir by 1
         float gravity = rb.gravityScale;
